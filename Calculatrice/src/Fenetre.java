@@ -18,6 +18,7 @@ public class Fenetre extends JFrame {
 		this.setContentPane(new Calculatrice());
 		this.setLocation(monitorWidth/4,monitorHeight/18);
 		this.pack();
+		this.setDefaultCloseOperation(EXIT_ON_CLOSE);
 	}
 
 
